@@ -1,0 +1,8 @@
+# Ignore environment file
+.env
+
+# Ignore local settings
+local.settings.json
+
+# Ignore log files
+logs.txt

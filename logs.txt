@@ -1,0 +1,369 @@
+2025-01-09T22:28:53Z   [Verbose]   AuthenticationScheme: ArmToken was not authenticated.
+2025-01-09T22:28:53Z   [Verbose]   AuthenticationScheme: WebJobsAuthLevel was not authenticated.
+2025-01-09T22:28:53Z   [Verbose]   Successfully validated the token.
+2025-01-09T22:28:53Z   [Verbose]   AuthenticationScheme: Bearer was successfully authenticated.
+2025-01-09T22:28:53Z   [Verbose]   Authorization was successful.
+2025-01-09T22:28:54Z   [Verbose]   AuthenticationScheme: ArmToken was not authenticated.
+2025-01-09T22:28:54Z   [Verbose]   AuthenticationScheme: WebJobsAuthLevel was not authenticated.
+2025-01-09T22:28:54Z   [Verbose]   Successfully validated the token.
+2025-01-09T22:28:54Z   [Verbose]   AuthenticationScheme: Bearer was successfully authenticated.
+2025-01-09T22:28:54Z   [Verbose]   Authorization was successful.
+2025-01-09T22:28:54Z   [Verbose]   Preventing any new worker processes from starting during shutdown.
+2025-01-09T22:28:54Z   [Verbose]   FUNCTIONS_WORKER_RUNTIME=node. Will shutdown all the worker channels that started in placeholder mode
+2025-01-09T22:28:54Z   [Information]   Loading functions metadata
+2025-01-09T22:29:24Z   [Information]   Request [1045b3f9-927f-4071-b005-dc8474d9bb7d] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:1045b3f9-927f-4071-b005-dc8474d9bb7d
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:23 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:24Z   [Information]   Response [1045b3f9-927f-4071-b005-dc8474d9bb7d] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34a74a-b01e-001b-4ce5-62ea9d000000
+x-ms-client-request-id:1045b3f9-927f-4071-b005-dc8474d9bb7d
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:29:23 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:29:25Z   [Verbose]   Initiating background SyncTriggers operation
+2025-01-09T22:29:25Z   [Information]   HttpOptions
+{
+  "DynamicThrottlesEnabled": true,
+  "EnableChunkedRequestBinding": false,
+  "MaxConcurrentRequests": 100,
+  "MaxOutstandingRequests": 200,
+  "RoutePrefix": "api"
+}
+2025-01-09T22:29:25Z   [Information]   BlobsOptions
+{
+  "MaxDegreeOfParallelism": 8,
+  "PoisonBlobThreshold": 5
+}
+2025-01-09T22:29:25Z   [Information]   ConcurrencyOptions
+{
+  "DynamicConcurrencyEnabled": false,
+  "MaximumFunctionConcurrency": 500,
+  "CPUThreshold": 0.8,
+  "SnapshotPersistenceEnabled": true
+}
+2025-01-09T22:29:25Z   [Information]   Request [f6bba757-2de4-4a96-bf9c-0087b34d9d98] HEAD https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-secrets/tjfunc1111/host.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:f6bba757-2de4-4a96-bf9c-0087b34d9d98
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:24 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:25Z   [Information]   Response [f6bba757-2de4-4a96-bf9c-0087b34d9d98] 200 OK (00.0s)
+Accept-Ranges:bytes
+ETag:"0x8DD29D3B705628E"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34a899-b01e-001b-6fe5-62ea9d000000
+x-ms-client-request-id:f6bba757-2de4-4a96-bf9c-0087b34d9d98
+x-ms-version:2023-11-03
+x-ms-creation-time:Tue, 31 Dec 2024 19:45:14 GMT
+x-ms-lease-status:unlocked
+x-ms-lease-state:available
+x-ms-blob-type:BlockBlob
+x-ms-server-encrypted:true
+Date:Thu, 09 Jan 2025 22:29:24 GMT
+Content-Length:1135
+Content-Type:application/octet-stream
+Content-MD5:jiysSFm3pzHA/pXKTdTuwA==
+Last-Modified:Tue, 31 Dec 2024 19:45:44 GMT
+2025-01-09T22:29:25Z   [Information]   Request [816e67ee-a9b0-4bc2-bbe6-209ec4c7df39] GET https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-secrets/tjfunc1111/host.json
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:816e67ee-a9b0-4bc2-bbe6-209ec4c7df39
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:24 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:25Z   [Information]   Response [816e67ee-a9b0-4bc2-bbe6-209ec4c7df39] 200 OK (00.0s)
+Accept-Ranges:bytes
+ETag:"0x8DD29D3B705628E"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34a89b-b01e-001b-70e5-62ea9d000000
+x-ms-client-request-id:816e67ee-a9b0-4bc2-bbe6-209ec4c7df39
+x-ms-version:2023-11-03
+x-ms-creation-time:Tue, 31 Dec 2024 19:45:14 GMT
+x-ms-lease-status:unlocked
+x-ms-lease-state:available
+x-ms-blob-type:BlockBlob
+x-ms-server-encrypted:true
+Date:Thu, 09 Jan 2025 22:29:24 GMT
+Content-Length:1135
+Content-Type:application/octet-stream
+Content-MD5:jiysSFm3pzHA/pXKTdTuwA==
+Last-Modified:Tue, 31 Dec 2024 19:45:44 GMT
+2025-01-09T22:29:25Z   [Information]   Request [708d10d1-03ab-46c5-9ca8-224ef721cd22] HEAD https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/synctriggers/tjfunc1111/last
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:708d10d1-03ab-46c5-9ca8-224ef721cd22
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:24 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:25Z   [Information]   Response [708d10d1-03ab-46c5-9ca8-224ef721cd22] 200 OK (00.0s)
+Accept-Ranges:bytes
+ETag:"0x8DD30FCDA416A66"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34a8a7-b01e-001b-7ce5-62ea9d000000
+x-ms-client-request-id:708d10d1-03ab-46c5-9ca8-224ef721cd22
+x-ms-version:2023-11-03
+x-ms-creation-time:Tue, 31 Dec 2024 19:46:16 GMT
+x-ms-lease-status:unlocked
+x-ms-lease-state:available
+x-ms-blob-type:BlockBlob
+x-ms-server-encrypted:true
+Date:Thu, 09 Jan 2025 22:29:24 GMT
+Content-Length:64
+Content-Type:application/octet-stream
+Content-MD5:Vkjuh86ZUzQVmuLhmoXJfg==
+Last-Modified:Thu, 09 Jan 2025 22:27:50 GMT
+2025-01-09T22:29:25Z   [Information]   Request [34ea9cd1-ef9c-4dae-b5ef-6efa3a303c44] GET https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/synctriggers/tjfunc1111/last
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:34ea9cd1-ef9c-4dae-b5ef-6efa3a303c44
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:24 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:25Z   [Information]   Response [34ea9cd1-ef9c-4dae-b5ef-6efa3a303c44] 200 OK (00.0s)
+Accept-Ranges:bytes
+ETag:"0x8DD30FCDA416A66"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34a8a8-b01e-001b-7de5-62ea9d000000
+x-ms-client-request-id:34ea9cd1-ef9c-4dae-b5ef-6efa3a303c44
+x-ms-version:2023-11-03
+x-ms-creation-time:Tue, 31 Dec 2024 19:46:16 GMT
+x-ms-lease-status:unlocked
+x-ms-lease-state:available
+x-ms-blob-type:BlockBlob
+x-ms-server-encrypted:true
+Date:Thu, 09 Jan 2025 22:29:24 GMT
+Content-Length:64
+Content-Type:application/octet-stream
+Content-MD5:Vkjuh86ZUzQVmuLhmoXJfg==
+Last-Modified:Thu, 09 Jan 2025 22:27:50 GMT
+2025-01-09T22:29:36Z   [Information]   Request [69e02a05-8680-43b8-a9f3-1040dabd270a] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:69e02a05-8680-43b8-a9f3-1040dabd270a
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:35 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:36Z   [Information]   Response [69e02a05-8680-43b8-a9f3-1040dabd270a] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34b650-b01e-001b-4de5-62ea9d000000
+x-ms-client-request-id:69e02a05-8680-43b8-a9f3-1040dabd270a
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:29:35 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:29:48Z   [Information]   Request [37965c49-ea47-4f5e-b9ef-b97b44e4c0e1] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:37965c49-ea47-4f5e-b9ef-b97b44e4c0e1
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:47 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:29:48Z   [Information]   Response [37965c49-ea47-4f5e-b9ef-b97b44e4c0e1] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34c47d-b01e-001b-4ce5-62ea9d000000
+x-ms-client-request-id:37965c49-ea47-4f5e-b9ef-b97b44e4c0e1
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:29:47 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:30:00Z   [Information]   Request [a28fa8ff-b218-4629-bacc-3e7b488720e1] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:a28fa8ff-b218-4629-bacc-3e7b488720e1
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:29:59 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:30:00Z   [Information]   Response [a28fa8ff-b218-4629-bacc-3e7b488720e1] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34d13d-b01e-001b-25e6-62ea9d000000
+x-ms-client-request-id:a28fa8ff-b218-4629-bacc-3e7b488720e1
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:29:59 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:30:12Z   [Information]   Request [ba0e1236-81db-4773-82d3-dd34c78ffef8] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:ba0e1236-81db-4773-82d3-dd34c78ffef8
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:30:11 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:30:12Z   [Information]   Response [ba0e1236-81db-4773-82d3-dd34c78ffef8] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34df2d-b01e-001b-69e6-62ea9d000000
+x-ms-client-request-id:ba0e1236-81db-4773-82d3-dd34c78ffef8
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:30:11 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:30:24Z   [Information]   Request [0b39566b-e1fb-4b89-b49d-2f53981821e1] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:0b39566b-e1fb-4b89-b49d-2f53981821e1
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:30:23 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:30:24Z   [Information]   Response [0b39566b-e1fb-4b89-b49d-2f53981821e1] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34eb71-b01e-001b-54e6-62ea9d000000
+x-ms-client-request-id:0b39566b-e1fb-4b89-b49d-2f53981821e1
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:30:23 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:30:36Z   [Information]   Request [476877af-6567-4d5f-b90d-07e7fb5580c1] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:476877af-6567-4d5f-b90d-07e7fb5580c1
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:30:35 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:30:36Z   [Information]   Response [476877af-6567-4d5f-b90d-07e7fb5580c1] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e34f891-b01e-001b-0ae6-62ea9d000000
+x-ms-client-request-id:476877af-6567-4d5f-b90d-07e7fb5580c1
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:30:35 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:30:48Z   [Information]   Request [2f2c6e91-c298-416b-91cd-4080f8759366] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:2f2c6e91-c298-416b-91cd-4080f8759366
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:30:47 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:30:48Z   [Information]   Response [2f2c6e91-c298-416b-91cd-4080f8759366] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e35065b-b01e-001b-65e6-62ea9d000000
+x-ms-client-request-id:2f2c6e91-c298-416b-91cd-4080f8759366
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:30:47 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:31:00Z   [Information]   Request [5f44e096-d1fe-4b03-85c5-2b0015de604c] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:5f44e096-d1fe-4b03-85c5-2b0015de604c
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:30:59 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:31:00Z   [Information]   Response [5f44e096-d1fe-4b03-85c5-2b0015de604c] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e3515eb-b01e-001b-7de6-62ea9d000000
+x-ms-client-request-id:5f44e096-d1fe-4b03-85c5-2b0015de604c
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:30:59 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:31:12Z   [Information]   Request [c2f64120-c884-4abb-8388-16a59c76924d] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:c2f64120-c884-4abb-8388-16a59c76924d
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:31:11 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:31:12Z   [Information]   Response [c2f64120-c884-4abb-8388-16a59c76924d] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e35255c-b01e-001b-77e6-62ea9d000000
+x-ms-client-request-id:c2f64120-c884-4abb-8388-16a59c76924d
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:31:11 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT
+2025-01-09T22:31:24Z   [Information]   Request [7d84acd1-b39c-4941-83f7-60f3f8491a88] PUT https://tjfunc1a35b.blob.core.windows.net/azure-webjobs-hosts/locks/tjfunc1111/host?comp=lease
+x-ms-lease-action:renew
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+x-ms-version:2023-11-03
+Accept:application/xml
+x-ms-client-request-id:7d84acd1-b39c-4941-83f7-60f3f8491a88
+x-ms-return-client-request-id:true
+User-Agent:azsdk-net-Storage.Blobs/12.19.1 (.NET 8.0.8; Microsoft Windows 10.0.20348)
+x-ms-date:Thu, 09 Jan 2025 22:31:23 GMT
+Authorization:REDACTED
+client assembly: Azure.Storage.Blobs
+2025-01-09T22:31:24Z   [Information]   Response [7d84acd1-b39c-4941-83f7-60f3f8491a88] 200 OK (00.0s)
+ETag:"0x8DD30FD035F03BF"
+Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id:5e353455-b01e-001b-60e6-62ea9d000000
+x-ms-client-request-id:7d84acd1-b39c-4941-83f7-60f3f8491a88
+x-ms-version:2023-11-03
+x-ms-lease-id:846d65f6-cbdf-2cef-c7df-b9687e32fc32
+Date:Thu, 09 Jan 2025 22:31:23 GMT
+Content-Length:0
+Last-Modified:Thu, 09 Jan 2025 22:28:59 GMT

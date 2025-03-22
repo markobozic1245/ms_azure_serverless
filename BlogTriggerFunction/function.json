@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "input/{name}",
+      "connection": "azurefun22_STORAGE"
+    },
+    {
+      "name": "outputBlob",
+      "direction": "out",
+      "type": "blob",
+      "path": "output/{name}",
+      "methods": [],
+      "connection": "azurefun22_STORAGE"
+    },
+    {
+      "name": "inputBlob",
+      "direction": "in",
+      "type": "blob",
+      "path": "input/{name}",
+      "methods": [],
+      "connection": "azurefun22_STORAGE"
+    }
+  ]
+}
