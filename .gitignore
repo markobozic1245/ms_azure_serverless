@@ -2,3 +2,21 @@
 .env
 /__blobstorage__
 /__queuestorage__
+# Build outputs
+/build
+/dist
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Binary and generated files
+*.hprof
+*.jar
+*.war
+*.ear
